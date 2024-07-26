@@ -1,0 +1,90 @@
+.form{
+    margin-top: 2.5rem;
+    width: 320px;
+    height: 250px;
+    background-color: #F9F7F7;
+    border-radius: 12px;
+}
+
+.form-heading{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.015em;
+    text-align: center;
+}
+
+.form-description{
+    width: 100%;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.55px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #BFBFBF;
+}
+
+.otp-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    background-color: #DBE2EF;
+    width: 40px;
+    height: 50px;
+    border-radius: 12px;
+    text-align: center;
+    outline: none;
+    border: none;
+    /* border: 1px solid #23CF9B; */  /*use when valid otp*/
+    /* border: 1px solid #FF0000; */  /*use when invalid otp*/
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.verify-btn{
+    background-color:#112D4E;
+    /* background-color: #23CF9B; */  /*use when valid otp*/
+    /* background-color: #EB2D5B; */  /*use when invalid otp*/
+    border: none;
+    border-radius: 8px;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32.55px;
+    text-align: center;
+    letter-spacing: 0.012em;
+    color: #FFFFFF;
+    padding: 0px 60px;
+    cursor: pointer;
+}
+
+.resend-otp{
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32.55px;
+    letter-spacing: 0.012em;
+    text-align: center;
+    color: #BFBFBF;
+
+}
+.resend-otp span a{
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32.55px;
+    letter-spacing: 0.012em;
+    text-align: center;
+    color: #112D4E;
+    text-decoration: none;
+}

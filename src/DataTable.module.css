@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #E2BBE9;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.title{
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #444B79;
+    padding-top: 0.8rem;
+}
+
+.box{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+}
+.cardContainer{
+    background-color: #F9F7F7;
+    width: 80%;
+    border-radius: 0.5rem;
+    padding: 16px;
+}
+
+.subHeading{
+    color: #313131;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: left;   
+    display: block; 
+    margin-bottom: 0.1rem;
+}
+
+.description{
+    color: #4B4747;
+    font-family: Inter;
+    font-size: 9.5px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+
+.searchSection{
+    display: flex;
+    gap: 0.4rem;    
+}
+.searchSection input{
+    border: 1px solid #BEBEBE;    /* border: 2px 2px 18px 2px #6C6BAF; */
+    outline: none;
+    border-radius: 2px;
+    padding: 4px 4px 4px 10px;
+    font-size: 13px;
+}
+.searchSection input::placeholder{
+    color: #C8C7C7;
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+}
+.searchBtn{
+    background-color: #6C6BAF;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    border-radius: 0.2rem;
+    padding: 6px 10px;
+}
+
+#link_to_website{
+    position: absolute;
+    z-index: 122;
+    bottom: 10px;
+    right: 16px;
+}
+#link_to_website img{
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Other styles remain the same */
+
+.dataTable {
+    color: #4B4747;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: "Inter";
+}
+
+.courseIcon {
+    width: 75px;
+    height: 45px;
+    margin-right: 6px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.dataTable th {
+    padding: 10px 4px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #4B4747;
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    word-wrap: normal;
+}
+
+.dataTable td {
+    border: 1px solid #ddd;
+    padding: 8px 8px;
+    font-size: 11px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.courseStatus{
+    border: 0.2px solid #7E7E7E;
+    background-color: #DBFFCE;
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 8px;
+    font-weight: 400;
+    text-align: right;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+tbody{
+    border: 1px solid #7D7D7D;
+}
+
+.footer{
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+    padding: 15px;
+}
+
+.footer p{
+    color: #4B4747;
+    font-size: 12px;
+}
+
+a{
+    position: absolute;
+    z-index: 122;
+    bottom: 10px;
+    right: 16px;
+}
+a img{
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
