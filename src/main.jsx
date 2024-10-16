@@ -9,10 +9,9 @@ import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements, Na
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-    <Route path='/' element={<Navigate to = "/otp-form" replace/>}/>
-      <Route path='/otp-form' element={<OtpForm/>}/>
-      <Route path='/course-list' element={<DragDrop/>}/>
-      <Route path='/batches' element={<DataTable/>}/>
+      <Route path='otp-form' element={<OtpForm/>}/>
+      <Route path='course-list' element={<DragDrop/>}/>
+      <Route path='batches' element={<DataTable/>}/>
     </>
   )
 )
